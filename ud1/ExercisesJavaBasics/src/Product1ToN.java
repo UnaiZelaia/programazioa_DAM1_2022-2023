@@ -8,5 +8,6 @@ public class Product1ToN{
             product = product * number;
             System.out.println(product);
         }
+        System.out.println("Esto es un cambio");
     }
 }
