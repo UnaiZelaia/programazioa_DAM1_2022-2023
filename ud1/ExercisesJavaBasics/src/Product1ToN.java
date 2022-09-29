@@ -6,8 +6,7 @@ public class Product1ToN{
 
         for(int number = LOWERBOUND; number < UPPERBOUND; number ++){
             product = product * number;
-            System.out.println(product);
         }
-        System.out.println("Esto es un cambio 3");
+        System.out.println(product);
     }
 }
