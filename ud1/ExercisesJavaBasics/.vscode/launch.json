@@ -1,0 +1,140 @@
+{
+    // Use IntelliSense para saber los atributos posibles.
+    // Mantenga el puntero para ver las descripciones de los existentes atributos.
+    // Para más información, visite: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Launch Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "Launch Add2Integers",
+            "request": "launch",
+            "mainClass": "Add2Integers",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch App",
+            "request": "launch",
+            "mainClass": "App",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch AverageWithInputValidation",
+            "request": "launch",
+            "mainClass": "AverageWithInputValidation",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckOddEven",
+            "request": "launch",
+            "mainClass": "CheckOddEven",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CheckPassFail",
+            "request": "launch",
+            "mainClass": "CheckPassFail",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch CircleComputation",
+            "request": "launch",
+            "mainClass": "CircleComputation",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ComputePI",
+            "request": "launch",
+            "mainClass": "ComputePI",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ExtractDigits",
+            "request": "launch",
+            "mainClass": "ExtractDigits",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch HarmonicSum",
+            "request": "launch",
+            "mainClass": "HarmonicSum",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch InputValidation",
+            "request": "launch",
+            "mainClass": "InputValidation",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintDayOfWeek",
+            "request": "launch",
+            "mainClass": "PrintDayOfWeek",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintNumberInWord",
+            "request": "launch",
+            "mainClass": "PrintNumberInWord",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Product1ToN",
+            "request": "launch",
+            "mainClass": "Product1ToN",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseInt",
+            "request": "launch",
+            "mainClass": "ReverseInt",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumAverageRunningInt",
+            "request": "launch",
+            "mainClass": "SumAverageRunningInt",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumOfDigitsInt",
+            "request": "launch",
+            "mainClass": "SumOfDigitsInt",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SumProductMinMax3",
+            "request": "launch",
+            "mainClass": "SumProductMinMax3",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Swap2Ints",
+            "request": "launch",
+            "mainClass": "Swap2Ints",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        }
+    ]
+}
