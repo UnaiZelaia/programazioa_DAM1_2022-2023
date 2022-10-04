@@ -7,7 +7,7 @@ public class ExtractDigits {
 
         while(number > 0){
             int digit = number % 10; //Extraer último dígito del número.
-            System.out.print(digit + " ");
+            System.out.print(digit);
 
             if(number < 10){ //Checkear si el último número ya ha sido imprimido para meter una nueva linea
                 System.out.println("\n"); //Si no sale un % al final de la ejecución.

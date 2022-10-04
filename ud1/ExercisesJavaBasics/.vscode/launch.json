@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CheckerPattern",
+            "request": "launch",
+            "mainClass": "CheckerPattern",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch SquarePattern",
+            "request": "launch",
+            "mainClass": "SquarePattern",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch Current File",
             "request": "launch",
             "mainClass": "${file}"
