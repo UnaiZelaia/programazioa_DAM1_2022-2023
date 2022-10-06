@@ -5,7 +5,7 @@ public class TimeTable {
         //Write a program called TimeTable that prompts user for the size (a positive integer in int)
         //and prints the multiplication table as shown
 
-        int number;
+        int number, cols;
 
         boolean isValid = false;
 
@@ -20,7 +20,18 @@ public class TimeTable {
             }
         }while(!isValid);
 
+        for(int rows = 1; rows <= number; rows++){
+            for(cols = 1; cols <= number; cols++){
+                System.out.printf("%4d |%4d", rows, cols);
+            }
+            if(rows == 1){
+                System.out.printf("* | %4d", cols);
+                System.out.println("----------------------------------------");
+            }
+            System.out.println();
+        }
 
+        
 
     }
 }

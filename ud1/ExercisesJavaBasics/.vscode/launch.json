@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch TimeTable",
+            "request": "launch",
+            "mainClass": "TimeTable",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Gogoa",
+            "request": "launch",
+            "mainClass": "Gogoa",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch CheckerPattern",
             "request": "launch",
             "mainClass": "CheckerPattern",
