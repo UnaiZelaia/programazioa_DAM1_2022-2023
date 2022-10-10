@@ -27,5 +27,4 @@ public class InputValidation {
         input.close();
         System.out.println("Good job. The number " + numberIn + " is valid");
     }
-
 }

@@ -6,6 +6,48 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch CountVowelsDigits",
+            "request": "launch",
+            "mainClass": "CountVowelsDigits",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch ReverseString",
+            "request": "launch",
+            "mainClass": "ReverseString",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangularPatternD",
+            "request": "launch",
+            "mainClass": "TriangularPatternD",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangularPatternC",
+            "request": "launch",
+            "mainClass": "TriangularPatternC",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangularPatternB",
+            "request": "launch",
+            "mainClass": "TriangularPatternB",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch TriangularPatternA",
+            "request": "launch",
+            "mainClass": "TriangularPatternA",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch TimeTable",
             "request": "launch",
             "mainClass": "TimeTable",
