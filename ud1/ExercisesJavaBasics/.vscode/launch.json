@@ -6,6 +6,27 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch PrintArrayInStars",
+            "request": "launch",
+            "mainClass": "PrintArrayInStars",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch PrintArray",
+            "request": "launch",
+            "mainClass": "PrintArray",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch prueba",
+            "request": "launch",
+            "mainClass": "prueba",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch CountVowelsDigits",
             "request": "launch",
             "mainClass": "CountVowelsDigits",
