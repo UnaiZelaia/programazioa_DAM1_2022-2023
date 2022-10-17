@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Hex2Bin",
+            "request": "launch",
+            "mainClass": "Hex2Bin",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch GradesStatistics",
+            "request": "launch",
+            "mainClass": "GradesStatistics",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch PrintArrayInStars",
             "request": "launch",
             "mainClass": "PrintArrayInStars",

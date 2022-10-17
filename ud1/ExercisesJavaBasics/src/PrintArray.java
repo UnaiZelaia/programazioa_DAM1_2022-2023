@@ -23,10 +23,12 @@ public class PrintArray {
         }while(!isValid);
         collection = new int[NUM_ITEMS];
 
+
         for(int i = 0; i < NUM_ITEMS; i++){
             System.out.println("Select the element number " + i);
             collection[i] = input.nextInt();
         }
+        input.close();
 
         for(int i = 0; i < collection.length; i++){
             if(i == 0){
