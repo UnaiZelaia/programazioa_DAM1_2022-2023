@@ -1,11 +1,11 @@
 import java.util.Scanner;
 
 public class PrintArray {
+    //Write a program called PrintArray which prompts user for the number of items in an array 
+    //(a non-negative integer), and saves it in an int variable called NUM_ITEMS. 
+    //It then prompts user for the values of all the items and saves them in an int array called items. 
+    //The program shall then print the contents of the array in the form of [x1, x2, ..., xn]
     public static void main(String[] args) {
-        //Write a program called PrintArray which prompts user for the number of items in an array 
-        //(a non-negative integer), and saves it in an int variable called NUM_ITEMS. 
-        //It then prompts user for the values of all the items and saves them in an int array called items. 
-        //The program shall then print the contents of the array in the form of [x1, x2, ..., xn]
 
         boolean isValid = false;
         Scanner input = new Scanner(System.in);

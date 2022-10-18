@@ -16,6 +16,7 @@ public class Hex2Bin {
                                    "1000", "1001", "1010", "1011",
                                    "1100", "1101", "1110", "1111"};
 
+        //Take input from user.
         System.out.print("Enter a hex string: ");
         hexStr = input.next();
         input.close();
