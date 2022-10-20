@@ -21,6 +21,7 @@ public class PrintArray {
             }
 
         }while(!isValid);
+        
         collection = new int[NUM_ITEMS];
 
 
