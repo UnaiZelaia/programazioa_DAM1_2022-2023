@@ -6,6 +6,20 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Launch Methods",
+            "request": "launch",
+            "mainClass": "Methods",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
+            "name": "Launch Exponent",
+            "request": "launch",
+            "mainClass": "Exponent",
+            "projectName": "ExercisesJavaBasics_ea67c6a5"
+        },
+        {
+            "type": "java",
             "name": "Launch Hex2Bin",
             "request": "launch",
             "mainClass": "Hex2Bin",
