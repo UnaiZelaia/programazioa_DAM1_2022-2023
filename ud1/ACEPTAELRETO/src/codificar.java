@@ -19,6 +19,7 @@ public class codificar {
         String msg;
         int p;
         int dif;
+        int nums[] = new int[20];
 
         do{
             int count = 0;
@@ -33,6 +34,7 @@ public class codificar {
                 if(msg.charAt(i) == 'a' || msg.charAt(i) == 'e' ||msg.charAt(i) == 'i' ||msg.charAt(i) == 'o' ||msg.charAt(i) == 'u' || 
                 msg.charAt(i) == 'A' || msg.charAt(i) == 'E' ||msg.charAt(i) == 'I' ||msg.charAt(i) == 'O' ||msg.charAt(i) == 'U'){
                     count++;
+                    nums[i] = count;
                 }
             }
             if(msg.equals("pFIN")){
