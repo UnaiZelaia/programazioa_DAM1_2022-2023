@@ -78,33 +78,34 @@ public class Menua {
         boolean irten = false;
         int select;
         do{
-        System.out.println("LAUKIAK\n\n========================================================");
-        System.out.println("1.- Laukiak sortu (gehienez 10). ");
-        System.out.println("2.- Laukien taula ikusi.");
-        System.out.println("3.- Lauki bat marraztu.");
-        System.out.println("4.- Lauki handiena bilatu.");
-        System.out.println("5.- Irten.");
-        select = input.nextInt();
+            System.out.println("LAUKIAK\n\n========================================================");
+            System.out.println("1.- Laukiak sortu (gehienez 10). ");
+            System.out.println("2.- Laukien taula ikusi.");
+            System.out.println("3.- Lauki bat marraztu.");
+            System.out.println("4.- Lauki handiena bilatu.");
+            System.out.println("5.- Irten.");
+            select = input.nextInt();
 
-        switch(select){
-            case 1:
-                sortu();
-                break;
-            case 2:
-                inprimatu();
-                break;
-            case 3:
-                marraztu();
-                break;
-            case 4:
-                handiena();
-                break;
-            case 5:
-                irten = true;
-                break;
-            default:
-                System.out.println("Sakatu 1, 2, 3, 4 edo 5.");
-        }
+            switch(select){
+                case 1:
+                    sortu();
+                    break;
+                case 2:
+                    inprimatu();
+                    break;
+                case 3:
+                    marraztu();
+                    break;
+                case 4:
+                    handiena();
+                    break;
+                case 5:
+                    irten = true;
+                    break;
+                default:
+                    System.out.println("Sakatu 1, 2, 3, 4 edo 5.");
+            }
+            System.out.println("\n\n\n");
         }
         while(!irten);
         input.close();
