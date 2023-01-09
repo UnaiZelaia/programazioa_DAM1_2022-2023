@@ -37,7 +37,6 @@ public class Menua {
 
 
 
-    //TODO: Method to show all Laukiak in list with attributtes.
     public static void inprimatu(){
         if(laukiak != null){
             System.out.println("Laukia      zabalera      altuera      azalera      perimetroa      Mota      ");
