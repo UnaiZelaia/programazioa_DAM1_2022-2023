@@ -1,3 +1,4 @@
+package model;
 public class MyRectangle{
     MyPoint topLeft, botRight;
 
@@ -22,7 +23,7 @@ public class MyRectangle{
         }
         else{
             left = p2.x;
-            right = p2.x;
+            right = p1.x;
 
             if(p1.y - p2.y <= 0){
                 bot = p1.y;
@@ -40,16 +41,16 @@ public class MyRectangle{
     }
 
 
-    public double getArea(){
-        double length = this.botRight.x - this.topLeft.x;
-        double height = this.topLeft.y - this.botRight.y;
+    public float getArea(){
+        float length = this.botRight.x - this.topLeft.x;
+        float height = this.topLeft.y - this.botRight.y;
 
         return length * height;
     }
 
-    public double getPerimetre(){
-        double length = this.botRight.x - this.topLeft.x;
-        double height = this.topLeft.y - this.botRight.y;
+    public float getPerimeter(){
+        float length = this.botRight.x - this.topLeft.x;
+        float height = this.topLeft.y - this.botRight.y;
 
         return (length * 2) + (height * 2);
     }

@@ -1,3 +1,4 @@
+package model;
 public class MyTriangle {
     MyPoint p1, p2, p3;
 
@@ -13,18 +14,18 @@ public class MyTriangle {
         this.p3 = p3;
     }
 
-    public double getPerimetre(){
-        double line1 = p1.distance(p2);
-        double line2 = p1.distance(p3);
-        double line3 = p2.distance(p3);
+    public float getPerimeter(){
+        float line1 = p1.distance(p2);
+        float line2 = p1.distance(p3);
+        float line3 = p2.distance(p3);
 
         return line1 + line2 + line3;
     }
 
     public String getType(){
-        double line1 = p1.distance(p2);
-        double line2 = p1.distance(p3);
-        double line3 = p2.distance(p3);
+        float line1 = p1.distance(p2);
+        float line2 = p1.distance(p3);
+        float line3 = p2.distance(p3);
 
         if(line1 == line2 && line2 == line3 && line3 == line1){
             return "Equilatero";
